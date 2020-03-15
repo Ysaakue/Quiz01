@@ -12,17 +12,19 @@
   <div id="questao1" class="questao">
     <form action="./q2.php" method="post">
       <div class="container">
-        <h1 class="enunciado"> 1)Marque qual das seguintes linguagens de programação é interpretada:</h1>
+        <h1 class="enunciado"> 1)Marque qual das seguintes linguagens de <br>programação pode ser tanto compilada como interpretada:</h1>
         <li class="lista-itens">
           <input type="radio" value="C" name="questao01" class="item"> a) C<br>
           <input type="radio" value="Java" name="questao01" class="item"> b) Java<br>
           <input type="radio" value="C++" name="questao01" class="item"> c) C++<br>
-          <input type="radio" value="Qt" name="questao01" class="item"> d) Qt<br>
+          <input type="radio" value="Qt" name="questao01" class="item"> d) Python<br>
           <input type="radio" value="Js" name="questao01" class="item"> e) JavaScript<br>
         </li>
-        <input type="submit" value="PRÓXIMA">
+        <input type="submit" value="PRÓXIMA" id="submit01">
       </div>
     </form>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="../js/validacao.js"></script>
 </body>
 </html>
