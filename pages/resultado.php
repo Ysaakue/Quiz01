@@ -98,15 +98,15 @@
       </li>
       <h1 class="enunciado">4)Analise os exemplos de criação de array em PHP. Marque os corretos.</h1>
       <li class="lista-itens">
-        <label class="correto">I. $idade = array("Paulo"=>32, "Pedro"=>30, "Ana"=>34);</label><br>
-        <label <?php if(in_array("II",$questao4)){echo "class='errado'";} ?>>II. $familia = array("Jorge">array("Angela","Iracema", "Bia"),"Pedro">array("Ana"));</label><br>
-        <label <?php if(in_array("III",$questao4)){echo "class='errado'";} ?>>III. $nome[0] << "Paulo"; $nome[1] << "Pedro"; $nome[2] << "Ana";</label><br>
-        <label class="correto">IV. $idade['Paulo'] = "32"; $idade['Pedro'] = "30"; $idade['Ana'] = "34";</label><br>
-        <label <?php if(in_array("V",$questao4)){echo "class='errado'";} ?>>V. $cidades << "Fortaleza" << "São Paulo" << "Caucaia";</label><br>
+        <label <?php if(in_array("I",$questao4)){echo "class='correto'";}else{echo "class='errado'";} ?>>I. $idade = array("Paulo"=>32, "Pedro"=>30, "Ana"=>34);</label><br>
+        <label <?php if(in_array("II",$questao4)){echo "class='errado'";}else{echo "class='correto'";} ?>>II. $familia = array("Jorge">array("Angela","Iracema", "Bia"),"Pedro">array("Ana"));</label><br>
+        <label <?php if(in_array("III",$questao4)){echo "class='errado'";}else{echo "class='correto'";} ?>>III. $nome[0] << "Paulo"; $nome[1] << "Pedro"; $nome[2] << "Ana";</label><br>
+        <label <?php if(in_array("IV",$questao4)){echo "class='correto'";}else{echo "class='errado'";} ?>>IV. $idade['Paulo'] = "32"; $idade['Pedro'] = "30"; $idade['Ana'] = "34";</label><br>
+        <label <?php if(in_array("V",$questao4)){echo "class='errado'";}else{echo "class='correto'";} ?>>V. $cidades << "Fortaleza" << "São Paulo" << "Caucaia";</label><br>
         <?php echo "<p class='resultato'>", $txt4, "</p>" ?>
       </li>
       <?php echo "<p>Sua pontuação final:", $pontos, "</p>" ?>
-      <a href="./pages/q1.php">
+      <a href="./q1.php">
         <button>Refazer o Quiz</button>
       </a>
     </div>
